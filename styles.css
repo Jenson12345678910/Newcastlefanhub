@@ -47,16 +47,18 @@ main h2 {
   font-size: 36px;
 }
 
-/* Table styling */
+/* Squad table styling */
 table {
-  width: 100%;
+  width: 80%;
+  margin: 20px auto;
   border-collapse: collapse;
-  margin-top: 20px;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 th, td {
-  border: 1px solid #333;
-  padding: 10px;
+  border: 1px solid #ddd;
+  padding: 12px;
   text-align: center;
 }
 
@@ -66,7 +68,12 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+  transition: background-color 0.3s ease;
 }
 
 /* Footer */
@@ -75,12 +82,12 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;  /* Keeps footer at bottom */
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-/* Responsive nav for small screens (optional) */
+/* Responsive nav for small screens */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -94,30 +101,4 @@ footer {
   footer {
     position: static;
   }
-}
-/* Table styling for the squad page */
-table {
-  width: 80%;
-  margin: 20px auto;
-  border-collapse: collapse;
-  font-size: 18px;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-
-th {
-  background-color: #333;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-tr:hover {
-  background-color: #ddd;
 }
