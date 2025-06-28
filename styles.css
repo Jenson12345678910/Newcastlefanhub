@@ -97,3 +97,13 @@ h2 {
 p {
   font-size: 20px; /* Paragraph text */
 }
+nav {
+  background-color: #000;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
