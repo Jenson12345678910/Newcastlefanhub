@@ -1,13 +1,1 @@
 
-index.html
-
-fixtures.html
-
-squad.html
-
-history.html
-
-trophies.html
-
-styles.css
-
