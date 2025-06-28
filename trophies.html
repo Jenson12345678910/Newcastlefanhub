@@ -3,7 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>Trophies - Newcastle Fan Hub</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .trophies {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .trophy {
+      background-color: #111;
+      border: 1px solid #444;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .trophy img {
+      width: 100px;
+      margin-right: 20px;
+    }
+    .trophy-info {
+      text-align: left;
+    }
+    .trophy-info h3 {
+      margin: 0 0 5px 0;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,16 +63,36 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>Trophies</h2>
-      <ul>
-        <li>English League Titles: 4 (Last: 1926–27)</li>
-        <li>FA Cup Wins: 6 (Last: 1955)</li>
-        <li>Inter-Cities Fairs Cup: 1 (1969)</li>
-        <!-- Add any other trophies or honors -->
-      </ul>
-    </section>
+  <main class="trophies">
+    <h2>Trophies</h2>
+
+    <div class="trophy">
+      <img src="images/league-title.png" alt="League Title Trophy">
+      <div class="trophy-info">
+        <h3>English League Titles (First Division)</h3>
+        <p>4 wins - last in 1926–27</p>
+        <p><em>England’s top division title, awarded to the best team over a league season.</em></p>
+      </div>
+    </div>
+
+    <div class="trophy">
+      <img src="images/fa-cup.png" alt="FA Cup Trophy">
+      <div class="trophy-info">
+        <h3>FA Cup Wins</h3>
+        <p>6 wins - last in 1955</p>
+        <p><em>England’s historic knockout cup competition, founded in 1871.</em></p>
+      </div>
+    </div>
+
+    <div class="trophy">
+      <img src="images/fairs-cup.png" alt="Inter-Cities Fairs Cup Trophy">
+      <div class="trophy-info">
+        <h3>Inter-Cities Fairs Cup</h3>
+        <p>1 win - 1969</p>
+        <p><em>European competition for city representative teams, precursor to the UEFA Cup.</em></p>
+      </div>
+    </div>
+
   </main>
 
   <footer>
