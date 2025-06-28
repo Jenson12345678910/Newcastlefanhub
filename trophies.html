@@ -1,57 +1,136 @@
-<main class="trophies">
-  <h2>Trophies</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trophies - Newcastle Fan Hub</title>
+  <link rel="stylesheet" href="styles.css"> <!-- make sure this matches your actual CSS file name -->
+  <style>
+    /* Fallback styles if styles.css fails to load */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .trophies {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .trophy {
+      background-color: #111;
+      border: 1px solid #444;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .trophy img {
+      width: 120px;
+      margin-right: 20px;
+      border-radius: 8px;
+    }
+    .trophy-info {
+      text-align: left;
+    }
+    .trophy-info h3 {
+      margin: 0 0 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Newcastle Fan Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fixtures.html">Fixtures</a>
+      <a href="squad.html">Squad</a>
+      <a href="history.html">History</a>
+      <a href="trophies.html">Trophies</a>
+    </nav>
+  </header>
 
-  <div class="trophy">
-    <img src="images/league-title.png" alt="League Title Trophy">
-    <div class="trophy-info">
-      <h3>English League Titles (First Division)</h3>
-      <p>4 wins - last won in 1926–27</p>
-      <p><em>Seasons: 1904–05, 1906–07, 1908–09, 1926–27</em></p>
-    </div>
-  </div>
+  <main class="trophies">
+    <h2>Trophies</h2>
 
-  <div class="trophy">
-    <img src="images/fa-cup.png" alt="FA Cup Trophy">
-    <div class="trophy-info">
-      <h3>FA Cup Wins</h3>
-      <p>6 wins - last won in 1954–55</p>
-      <p><em>Seasons: 1909–10, 1923–24, 1931–32, 1950–51, 1951–52, 1954–55</em></p>
+    <div class="trophy">
+      <img src="images/league-title.png" alt="League Title Trophy">
+      <div class="trophy-info">
+        <h3>English League Titles (First Division)</h3>
+        <p>4 wins - last won in 1926–27</p>
+        <p><em>Seasons: 1904–05, 1906–07, 1908–09, 1926–27</em></p>
+      </div>
     </div>
-  </div>
 
-  <div class="trophy">
-    <img src="images/fairs-cup.png" alt="Inter-Cities Fairs Cup Trophy">
-    <div class="trophy-info">
-      <h3>Inter-Cities Fairs Cup</h3>
-      <p>1 win - 1968–69</p>
-      <p><em>A European competition for city representative teams, precursor to the UEFA Cup.</em></p>
+    <div class="trophy">
+      <img src="images/fa-cup.png" alt="FA Cup Trophy">
+      <div class="trophy-info">
+        <h3>FA Cup Wins</h3>
+        <p>6 wins - last won in 1954–55</p>
+        <p><em>Seasons: 1909–10, 1923–24, 1931–32, 1950–51, 1951–52, 1954–55</em></p>
+      </div>
     </div>
-  </div>
 
-  <div class="trophy">
-    <img src="images/carabao-cup.png" alt="Carabao Cup Trophy">
-    <div class="trophy-info">
-      <h3>League Cup (Carabao Cup)</h3>
-      <p>0 wins - runners-up in 2023</p>
-      <p><em>England’s league cup, a major knockout tournament for all league divisions.</em></p>
+    <div class="trophy">
+      <img src="images/fairs-cup.png" alt="Inter-Cities Fairs Cup Trophy">
+      <div class="trophy-info">
+        <h3>Inter-Cities Fairs Cup</h3>
+        <p>1 win - 1968–69</p>
+        <p><em>A European competition for city representative teams, precursor to the UEFA Cup.</em></p>
+      </div>
     </div>
-  </div>
 
-  <div class="trophy">
-    <img src="images/charity-shield.png" alt="FA Charity Shield Trophy">
-    <div class="trophy-info">
-      <h3>FA Charity Shield</h3>
-      <p>1 win - 1909</p>
-      <p><em>The season-opening match between league champions and FA Cup winners.</em></p>
+    <div class="trophy">
+      <img src="images/carabao-cup.png" alt="Carabao Cup Trophy">
+      <div class="trophy-info">
+        <h3>League Cup (Carabao Cup)</h3>
+        <p>0 wins - runners-up in 2023</p>
+        <p><em>England’s league cup, a major knockout tournament for all league divisions.</em></p>
+      </div>
     </div>
-  </div>
 
-  <div class="trophy">
-    <img src="images/intertoto-cup.png" alt="UEFA Intertoto Cup Trophy">
-    <div class="trophy-info">
-      <h3>UEFA Intertoto Cup</h3>
-      <p>1 win - 2006</p>
-      <p><em>A European summer competition giving a route into the UEFA Cup.</em></p>
+    <div class="trophy">
+      <img src="images/charity-shield.png" alt="FA Charity Shield Trophy">
+      <div class="trophy-info">
+        <h3>FA Charity Shield</h3>
+        <p>1 win - 1909</p>
+        <p><em>The season-opening match between league champions and FA Cup winners.</em></p>
+      </div>
     </div>
-  </div>
-</main>
+
+    <div class="trophy">
+      <img src="images/intertoto-cup.png" alt="UEFA Intertoto Cup Trophy">
+      <div class="trophy-info">
+        <h3>UEFA Intertoto Cup</h3>
+        <p>1 win - 2006</p>
+        <p><em>A European summer competition giving a route into the UEFA Cup.</em></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Newcastle Fan Hub</p>
+  </footer>
+</body>
+</html>
