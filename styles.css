@@ -82,3 +82,18 @@ ul li {
     position: static;
   }
 }
+body {
+  font-size: 18px; /* Makes all normal text bigger */
+}
+
+h1 {
+  font-size: 48px; /* Big main headings */
+}
+
+h2 {
+  font-size: 36px; /* Slightly smaller headings */
+}
+
+p {
+  font-size: 20px; /* Paragraph text */
+}
