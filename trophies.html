@@ -35,24 +35,26 @@
     table {
       margin: 20px auto;
       border-collapse: collapse;
-      width: 60%;
+      width: 70%;
       border: 2px solid #333;
     }
     td {
       border: 1px solid #333;
-      padding: 15px;
       vertical-align: middle;
       text-align: center;
+      padding: 15px;
     }
-    img {
-      width: 120px;
-      height: 120px;
+    .trophy-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
       border-radius: 8px;
+      border: 1px solid #999;
     }
-    h2 {
-      margin-top: 0;
+    .trophy-info h3 {
+      margin: 10px 0 5px 0;
     }
-    em {
+    .trophy-info em {
       color: #555;
       font-style: italic;
     }
@@ -71,60 +73,70 @@
   </header>
   <main>
     <h2>Trophies</h2>
-    <p style="max-width:600px; margin:0 auto 20px;">
+    <p style="max-width:600px; margin:auto;">
       Newcastle United has a proud tradition of winning trophies over its long history. Here you can see the titles and cups they have lifted, showing the club’s passion and heritage through the years.
     </p>
     <table>
-      <tbody>
-        <tr>
-          <td>
-            <img src="images/league-title.png" alt="League Title Trophy" />
-            <h3>English League Titles</h3>
-            <p>4 wins - last in 1926–27</p>
-            <em>Seasons: 1904–05, 1906–07, 1908–09, 1926–27</em>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/fa-cup.png" alt="FA Cup Trophy" />
-            <h3>FA Cup</h3>
-            <p>6 wins - last in 1954–55</p>
-            <em>Seasons: 1909–10, 1923–24, 1931–32, 1950–51, 1951–52, 1954–55</em>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/fairs-cup.png" alt="Inter-Cities Fairs Cup" />
-            <h3>Inter-Cities Fairs Cup</h3>
-            <p>1 win - 1968–69</p>
-            <em>Precursor to the UEFA Cup.</em>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/carabao-cup.png" alt="Carabao Cup" />
-            <h3>League Cup (Carabao Cup)</h3>
-            <p>0 wins - runners-up in 2023</p>
-            <em>England’s major knockout competition for all divisions.</em>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/charity-shield.png" alt="Charity Shield" />
-            <h3>FA Charity Shield</h3>
-            <p>1 win - 1909</p>
-            <em>Season-opening match between league champion and FA Cup winner.</em>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/intertoto-cup.png" alt="UEFA Intertoto Cup" />
-            <h3>UEFA Intertoto Cup</h3>
-            <p>1 win - 2006</p>
-            <em>European summer competition giving route into UEFA Cup.</em>
-          </td>
-        </tr>
-      </tbody>
+      <tr>
+        <td>
+          <img src="images/league-title.png" alt="League Title Trophy" class="trophy-img">
+        </td>
+        <td class="trophy-info">
+          <h3>English League Titles</h3>
+          <p>4 wins - last in 1926–27</p>
+          <em>Seasons: 1904–05, 1906–07, 1908–09, 1926–27</em>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/fa-cup.png" alt="FA Cup Trophy" class="trophy-img">
+        </td>
+        <td class="trophy-info">
+          <h3>FA Cup</h3>
+          <p>6 wins - last in 1954–55</p>
+          <em>Seasons: 1909–10, 1923–24, 1931–32, 1950–51, 1951–52, 1954–55</em>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/fairs-cup.png" alt="Inter-Cities Fairs Cup" class="trophy-img">
+        </td>
+        <td class="trophy-info">
+          <h3>Inter-Cities Fairs Cup</h3>
+          <p>1 win - 1968–69</p>
+          <em>Precursor to the UEFA Cup.</em>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/carabao-cup.png" alt="Carabao Cup" class="trophy-img">
+        </td>
+        <td class="trophy-info">
+          <h3>League Cup (Carabao Cup)</h3>
+          <p>0 wins - runners-up in 2023</p>
+          <em>England’s major knockout competition for all divisions.</em>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/charity-shield.png" alt="Charity Shield" class="trophy-img">
+        </td>
+        <td class="trophy-info">
+          <h3>FA Charity Shield</h3>
+          <p>1 win - 1909</p>
+          <em>Season-opening match between league champion and FA Cup winner.</em>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/intertoto-cup.png" alt="UEFA Intertoto Cup" class="trophy-img">
+        </td>
+        <td class="trophy-info">
+          <h3>UEFA Intertoto Cup</h3>
+          <p>1 win - 2006</p>
+          <em>European summer competition giving route into UEFA Cup.</em>
+        </td>
+      </tr>
     </table>
   </main>
   <footer style="background-color:#333;color:white;text-align:center;padding:10px;">
